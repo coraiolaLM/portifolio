@@ -1,0 +1,143 @@
+/* formatando fonte e cor de fundo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+/* formatando cabeçario */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+/* formatando icone no cabeçario */
+header img { 
+    width: 100px; 
+    height: 100px; 
+    margin-right: 100px; 
+    margin-left: 10px;
+    border-radius: 50%; 
+    /* border radius pra deixar o icone redondin */
+}
+
+/* daqui pra baixo é tudo formatação do cabeçario */
+header {
+    background-color: black;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    margin-top: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+.h2espaço{
+    text-align: center;
+
+}
+/* aqui acaba a formatação do cabeçario */
+
+/* formatando biografia*/
+.bio-container {
+    display: flex;
+    align-items: center;
+}
+
+/* formatando foto minha bonitão */
+.profile-picture img {
+    max-width: 400px; /* Define o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+    border-radius: 20%;
+}
+
+/* formatando fonte da biografia */
+.bio p {
+    margin: 0; /* Remove margens padrão */
+    color: black;
+    font-size: 18px;
+}
+
+
+/* formatação projetos */
+.projeto {
+    margin-bottom: 20px;
+    display: flex; /* Usando flexbox */
+}
+
+.projeto img {
+    max-width: 200px; /* Define a largura máxima da imagem */
+    height: auto;
+    margin-right: 20px; /* Espaçamento à direita da imagem */
+    border-radius: 50%;
+}
+
+.projeto .descricao {
+    flex: 1; /* Ocupa o espaço restante disponível */
+}
+
+.projeto h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.projeto p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Estilos para o link "Ver mais" */
+.projeto a {
+    text-decoration: none;
+    color: #333;
+    background-color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.projeto a:hover {
+    background-color: #ddd;
+}
+/* aqui acaba a formatação dos projetos */
+/* Estilos para os ícones de contato */
+.contato-icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contato-icons img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%; /* Faz com que os ícones sejam redondos */
+}
